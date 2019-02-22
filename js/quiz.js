@@ -36,7 +36,7 @@ for (var i = 0; i < questions.length; i +=1){
 
 html += "you got these questions right <br>";
 html += correct.join("<br>");
-
+html += "<br>"
 html +="you got these questions wrong <br>";
 html +=wrong.join("<br>");
 
